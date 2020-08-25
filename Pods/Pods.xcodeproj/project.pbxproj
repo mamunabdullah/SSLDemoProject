@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F960C5587A630321D0065843A0EB61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		15D3CE44BD284CF55E7F8E0027637BE8 /* Pods-SSLDemoProjectTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDF0DB6670E4CEA9C2A9A81DACD07109 /* Pods-SSLDemoProjectTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B7ED455A55057FBCB11B508F3126741 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		34BF5E4C99318711936BF81D557BE250 /* Pods-SSLDemoProject-SSLDemoProjectUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 274B85BE7A08CFD86B0CC427EFC4A6B8 /* Pods-SSLDemoProject-SSLDemoProjectUITests-dummy.m */; };
+		6C3BC2F303DECA8669C83F0C80679CAE /* Pods-SSLDemoProjectTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C56A4D4AF99D92E0D5349655B89FA /* Pods-SSLDemoProjectTests-dummy.m */; };
+		70B4781D8ACA2128B086BCC84F817C08 /* Pods-SSLDemoProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A319013E7CFDBB3F2DD857819F4F7156 /* Pods-SSLDemoProject-dummy.m */; };
+		7DAE15CDFE97C782ADE3D34F8248CBEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AADA2811291784D0D4A6033A10E0647E /* Pods-SSLDemoProject-SSLDemoProjectUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E914D70A816A036BC92C18A35F6203F0 /* Pods-SSLDemoProject-SSLDemoProjectUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC7D1D276DDC172002E5E69E1E1B04B6 /* Pods-SSLDemoProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC5C77320AECDCC3AD534AC1FE8B03A /* Pods-SSLDemoProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E5EC25D3C3F0942CE4F8A9047455420 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 433B0D6B71BC2D27A5336785B90020C1;
+			remoteInfo = "Pods-SSLDemoProject";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0231861A0F6B5C4E483A97B5225ABDE4 /* Pods_SSLDemoProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSLDemoProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		097ABA85726C3560F9D51A71D81A1A4A /* Pods-SSLDemoProjectTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSLDemoProjectTests-Info.plist"; sourceTree = "<group>"; };
+		1C3239E19C5A1834FC30D89896BE737E /* Pods-SSLDemoProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSLDemoProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F98DA8EBBC3F692B035A2E02FC2E3ED /* Pods-SSLDemoProject-SSLDemoProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSLDemoProject-SSLDemoProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		26D7AA4A1CF501711C1054F8E56C5FBA /* Pods-SSLDemoProject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSLDemoProject-Info.plist"; sourceTree = "<group>"; };
+		274B85BE7A08CFD86B0CC427EFC4A6B8 /* Pods-SSLDemoProject-SSLDemoProjectUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSLDemoProject-SSLDemoProjectUITests-dummy.m"; sourceTree = "<group>"; };
+		29DB2C9A348E30FDA894272DDB5B4950 /* Pods-SSLDemoProject-SSLDemoProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSLDemoProject-SSLDemoProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2C06B790742AE3BF1497A5EC82152117 /* Pods-SSLDemoProject-SSLDemoProjectUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSLDemoProject-SSLDemoProjectUITests-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		361B01646DD8C94F6C89D1F9A1840157 /* Pods-SSLDemoProjectTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSLDemoProjectTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3A8BF7247EC52C107AC920D81F0052AA /* Pods-SSLDemoProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSLDemoProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		4443EB1E35B1D330E1CD918B16FD7783 /* Pods-SSLDemoProject-SSLDemoProjectUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSLDemoProject-SSLDemoProjectUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4A3752C4EF5D216DE0E18C601D4A4273 /* Pods-SSLDemoProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSLDemoProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		55DCD5466D4DDAEB2F471082B95EA350 /* Pods-SSLDemoProject-SSLDemoProjectUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SSLDemoProject-SSLDemoProjectUITests.modulemap"; sourceTree = "<group>"; };
+		62B35E373A5F057E3EF34073282C3AC0 /* Pods-SSLDemoProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSLDemoProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7774688D3065E212F65247E33400DA66 /* Pods-SSLDemoProject-SSLDemoProjectUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSLDemoProject-SSLDemoProjectUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7B125770968B119F5DEAEAE4FA3F7DDC /* Pods-SSLDemoProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSLDemoProject.debug.xcconfig"; sourceTree = "<group>"; };
+		7DF21FB23EC884EAB28F61E76A6065E0 /* Pods-SSLDemoProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SSLDemoProject.modulemap"; sourceTree = "<group>"; };
+		8B4AD08A1850E1633FFFC3FAA0A8755B /* Pods-SSLDemoProjectTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSLDemoProjectTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8DC5C77320AECDCC3AD534AC1FE8B03A /* Pods-SSLDemoProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSLDemoProject-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A319013E7CFDBB3F2DD857819F4F7156 /* Pods-SSLDemoProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSLDemoProject-dummy.m"; sourceTree = "<group>"; };
+		A62D648320181BADBA96F8A65C504CD7 /* Pods_SSLDemoProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSLDemoProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF52C1D275694EF93EAFA44F5E372CD /* Pods-SSLDemoProjectTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SSLDemoProjectTests.modulemap"; sourceTree = "<group>"; };
+		B61D89C1054922BDFF7FFC3133211900 /* Pods_SSLDemoProject_SSLDemoProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSLDemoProject_SSLDemoProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00C56A4D4AF99D92E0D5349655B89FA /* Pods-SSLDemoProjectTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSLDemoProjectTests-dummy.m"; sourceTree = "<group>"; };
+		DC8C722A19395566EC270E7E3D9E0AAE /* Pods-SSLDemoProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSLDemoProject.release.xcconfig"; sourceTree = "<group>"; };
+		E914D70A816A036BC92C18A35F6203F0 /* Pods-SSLDemoProject-SSLDemoProjectUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSLDemoProject-SSLDemoProjectUITests-umbrella.h"; sourceTree = "<group>"; };
+		FDF0DB6670E4CEA9C2A9A81DACD07109 /* Pods-SSLDemoProjectTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSLDemoProjectTests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13C29024E27C83E1384AEBD04E1C51D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7ED455A55057FBCB11B508F3126741 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A87B62EE671317AAF88C5057ED06EB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DAE15CDFE97C782ADE3D34F8248CBEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A0F0B743A5F8B03AA6EF4E7EA27CD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F960C5587A630321D0065843A0EB61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A3F22BC9D8F83B5C0F8AA2380094AEE /* Pods-SSLDemoProject-SSLDemoProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55DCD5466D4DDAEB2F471082B95EA350 /* Pods-SSLDemoProject-SSLDemoProjectUITests.modulemap */,
+				7774688D3065E212F65247E33400DA66 /* Pods-SSLDemoProject-SSLDemoProjectUITests-acknowledgements.markdown */,
+				4443EB1E35B1D330E1CD918B16FD7783 /* Pods-SSLDemoProject-SSLDemoProjectUITests-acknowledgements.plist */,
+				274B85BE7A08CFD86B0CC427EFC4A6B8 /* Pods-SSLDemoProject-SSLDemoProjectUITests-dummy.m */,
+				2C06B790742AE3BF1497A5EC82152117 /* Pods-SSLDemoProject-SSLDemoProjectUITests-Info.plist */,
+				E914D70A816A036BC92C18A35F6203F0 /* Pods-SSLDemoProject-SSLDemoProjectUITests-umbrella.h */,
+				1F98DA8EBBC3F692B035A2E02FC2E3ED /* Pods-SSLDemoProject-SSLDemoProjectUITests.debug.xcconfig */,
+				29DB2C9A348E30FDA894272DDB5B4950 /* Pods-SSLDemoProject-SSLDemoProjectUITests.release.xcconfig */,
+			);
+			name = "Pods-SSLDemoProject-SSLDemoProjectUITests";
+			path = "Target Support Files/Pods-SSLDemoProject-SSLDemoProjectUITests";
+			sourceTree = "<group>";
+		};
+		5F16B5078B9E527D39B724C5115DD534 /* Pods-SSLDemoProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABF52C1D275694EF93EAFA44F5E372CD /* Pods-SSLDemoProjectTests.modulemap */,
+				361B01646DD8C94F6C89D1F9A1840157 /* Pods-SSLDemoProjectTests-acknowledgements.markdown */,
+				8B4AD08A1850E1633FFFC3FAA0A8755B /* Pods-SSLDemoProjectTests-acknowledgements.plist */,
+				D00C56A4D4AF99D92E0D5349655B89FA /* Pods-SSLDemoProjectTests-dummy.m */,
+				097ABA85726C3560F9D51A71D81A1A4A /* Pods-SSLDemoProjectTests-Info.plist */,
+				FDF0DB6670E4CEA9C2A9A81DACD07109 /* Pods-SSLDemoProjectTests-umbrella.h */,
+				62B35E373A5F057E3EF34073282C3AC0 /* Pods-SSLDemoProjectTests.debug.xcconfig */,
+				4A3752C4EF5D216DE0E18C601D4A4273 /* Pods-SSLDemoProjectTests.release.xcconfig */,
+			);
+			name = "Pods-SSLDemoProjectTests";
+			path = "Target Support Files/Pods-SSLDemoProjectTests";
+			sourceTree = "<group>";
+		};
+		9A76256CFE056A8D3B19ABCBF921CC15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0231861A0F6B5C4E483A97B5225ABDE4 /* Pods_SSLDemoProject.framework */,
+				B61D89C1054922BDFF7FFC3133211900 /* Pods_SSLDemoProject_SSLDemoProjectUITests.framework */,
+				A62D648320181BADBA96F8A65C504CD7 /* Pods_SSLDemoProjectTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B96FE8F1176D09D0E0AC7C1D4CDF758D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF8191994EFC5C2D4F1CA9EF58E3C1 /* Pods-SSLDemoProject */,
+				1A3F22BC9D8F83B5C0F8AA2380094AEE /* Pods-SSLDemoProject-SSLDemoProjectUITests */,
+				5F16B5078B9E527D39B724C5115DD534 /* Pods-SSLDemoProjectTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9A76256CFE056A8D3B19ABCBF921CC15 /* Products */,
+				B96FE8F1176D09D0E0AC7C1D4CDF758D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEFF8191994EFC5C2D4F1CA9EF58E3C1 /* Pods-SSLDemoProject */ = {
+			isa = PBXGroup;
+			children = (
+				7DF21FB23EC884EAB28F61E76A6065E0 /* Pods-SSLDemoProject.modulemap */,
+				1C3239E19C5A1834FC30D89896BE737E /* Pods-SSLDemoProject-acknowledgements.markdown */,
+				3A8BF7247EC52C107AC920D81F0052AA /* Pods-SSLDemoProject-acknowledgements.plist */,
+				A319013E7CFDBB3F2DD857819F4F7156 /* Pods-SSLDemoProject-dummy.m */,
+				26D7AA4A1CF501711C1054F8E56C5FBA /* Pods-SSLDemoProject-Info.plist */,
+				8DC5C77320AECDCC3AD534AC1FE8B03A /* Pods-SSLDemoProject-umbrella.h */,
+				7B125770968B119F5DEAEAE4FA3F7DDC /* Pods-SSLDemoProject.debug.xcconfig */,
+				DC8C722A19395566EC270E7E3D9E0AAE /* Pods-SSLDemoProject.release.xcconfig */,
+			);
+			name = "Pods-SSLDemoProject";
+			path = "Target Support Files/Pods-SSLDemoProject";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1EEADF41BA08F313B58CB5524471F64B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AADA2811291784D0D4A6033A10E0647E /* Pods-SSLDemoProject-SSLDemoProjectUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BA4D638D688B899DB29840CA465FC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7D1D276DDC172002E5E69E1E1B04B6 /* Pods-SSLDemoProject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC80641039B5956B6D2C3D382E599588 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D3CE44BD284CF55E7F8E0027637BE8 /* Pods-SSLDemoProjectTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		433B0D6B71BC2D27A5336785B90020C1 /* Pods-SSLDemoProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A1E3396659DA1331147B41D8782C3F8 /* Build configuration list for PBXNativeTarget "Pods-SSLDemoProject" */;
+			buildPhases = (
+				66BA4D638D688B899DB29840CA465FC7 /* Headers */,
+				DF6400B69281AB0DEB8D783820C75125 /* Sources */,
+				5A87B62EE671317AAF88C5057ED06EB4 /* Frameworks */,
+				CC6DD93724820AEFA6221FA2180FE1C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SSLDemoProject";
+			productName = "Pods-SSLDemoProject";
+			productReference = 0231861A0F6B5C4E483A97B5225ABDE4 /* Pods_SSLDemoProject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		814142B0EE05D67F75AC3AD4DD1913A7 /* Pods-SSLDemoProject-SSLDemoProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54DC52B366D94A20AB46CCC46A7CC4F /* Build configuration list for PBXNativeTarget "Pods-SSLDemoProject-SSLDemoProjectUITests" */;
+			buildPhases = (
+				1EEADF41BA08F313B58CB5524471F64B /* Headers */,
+				06429A6642E3BC8F7E0C8A968C496134 /* Sources */,
+				13C29024E27C83E1384AEBD04E1C51D4 /* Frameworks */,
+				2CA2D1930E7DDA10D90DBF120539BFBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SSLDemoProject-SSLDemoProjectUITests";
+			productName = "Pods-SSLDemoProject-SSLDemoProjectUITests";
+			productReference = B61D89C1054922BDFF7FFC3133211900 /* Pods_SSLDemoProject_SSLDemoProjectUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E10838AD540871B5451D4685B3387A53 /* Pods-SSLDemoProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E453E7ECF7973FDF1DAFB8FEE4F48F95 /* Build configuration list for PBXNativeTarget "Pods-SSLDemoProjectTests" */;
+			buildPhases = (
+				CC80641039B5956B6D2C3D382E599588 /* Headers */,
+				875D8FBAB17A77C5115842FC5555AEED /* Sources */,
+				D7A0F0B743A5F8B03AA6EF4E7EA27CD5 /* Frameworks */,
+				97805DF164B9E2CFAE5C244AF4470A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				072DED6500A7BE244F14FEC467BED6AB /* PBXTargetDependency */,
+			);
+			name = "Pods-SSLDemoProjectTests";
+			productName = "Pods-SSLDemoProjectTests";
+			productReference = A62D648320181BADBA96F8A65C504CD7 /* Pods_SSLDemoProjectTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9A76256CFE056A8D3B19ABCBF921CC15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				433B0D6B71BC2D27A5336785B90020C1 /* Pods-SSLDemoProject */,
+				814142B0EE05D67F75AC3AD4DD1913A7 /* Pods-SSLDemoProject-SSLDemoProjectUITests */,
+				E10838AD540871B5451D4685B3387A53 /* Pods-SSLDemoProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CA2D1930E7DDA10D90DBF120539BFBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97805DF164B9E2CFAE5C244AF4470A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6DD93724820AEFA6221FA2180FE1C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06429A6642E3BC8F7E0C8A968C496134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BF5E4C99318711936BF81D557BE250 /* Pods-SSLDemoProject-SSLDemoProjectUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875D8FBAB17A77C5115842FC5555AEED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C3BC2F303DECA8669C83F0C80679CAE /* Pods-SSLDemoProjectTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6400B69281AB0DEB8D783820C75125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B4781D8ACA2128B086BCC84F817C08 /* Pods-SSLDemoProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		072DED6500A7BE244F14FEC467BED6AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SSLDemoProject";
+			target = 433B0D6B71BC2D27A5336785B90020C1 /* Pods-SSLDemoProject */;
+			targetProxy = 0E5EC25D3C3F0942CE4F8A9047455420 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13967C5C8F4B10B3EE4D6C208A0A7BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		194B9D1F2F4381567E5A2E32AA7DA900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3752C4EF5D216DE0E18C601D4A4273 /* Pods-SSLDemoProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SSLDemoProjectTests/Pods-SSLDemoProjectTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSLDemoProjectTests/Pods-SSLDemoProjectTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4527DD56421DC93CE5064FD9562FCF68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B125770968B119F5DEAEAE4FA3F7DDC /* Pods-SSLDemoProject.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-SSLDemoProject/Pods-SSLDemoProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSLDemoProject/Pods-SSLDemoProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77C3874CB7C8AA2400EBC181A65B269E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F98DA8EBBC3F692B035A2E02FC2E3ED /* Pods-SSLDemoProject-SSLDemoProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SSLDemoProject-SSLDemoProjectUITests/Pods-SSLDemoProject-SSLDemoProjectUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSLDemoProject-SSLDemoProjectUITests/Pods-SSLDemoProject-SSLDemoProjectUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		871B6E28ABA34DAE69824AB9D22D3B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		89E3AA5283282FB2F8D31CDD6AB38F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC8C722A19395566EC270E7E3D9E0AAE /* Pods-SSLDemoProject.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-SSLDemoProject/Pods-SSLDemoProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSLDemoProject/Pods-SSLDemoProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2179C579DF1DDAD9BD40D4D36EE6199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62B35E373A5F057E3EF34073282C3AC0 /* Pods-SSLDemoProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SSLDemoProjectTests/Pods-SSLDemoProjectTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSLDemoProjectTests/Pods-SSLDemoProjectTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FAD17063AA644184ACBDC45FDD44E283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29DB2C9A348E30FDA894272DDB5B4950 /* Pods-SSLDemoProject-SSLDemoProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SSLDemoProject-SSLDemoProjectUITests/Pods-SSLDemoProject-SSLDemoProjectUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSLDemoProject-SSLDemoProjectUITests/Pods-SSLDemoProject-SSLDemoProjectUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13967C5C8F4B10B3EE4D6C208A0A7BEB /* Debug */,
+				871B6E28ABA34DAE69824AB9D22D3B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A1E3396659DA1331147B41D8782C3F8 /* Build configuration list for PBXNativeTarget "Pods-SSLDemoProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4527DD56421DC93CE5064FD9562FCF68 /* Debug */,
+				89E3AA5283282FB2F8D31CDD6AB38F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54DC52B366D94A20AB46CCC46A7CC4F /* Build configuration list for PBXNativeTarget "Pods-SSLDemoProject-SSLDemoProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77C3874CB7C8AA2400EBC181A65B269E /* Debug */,
+				FAD17063AA644184ACBDC45FDD44E283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E453E7ECF7973FDF1DAFB8FEE4F48F95 /* Build configuration list for PBXNativeTarget "Pods-SSLDemoProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2179C579DF1DDAD9BD40D4D36EE6199 /* Debug */,
+				194B9D1F2F4381567E5A2E32AA7DA900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

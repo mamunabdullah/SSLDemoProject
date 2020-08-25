@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42164A1C24F3F6630033CC9E /* SSLCommerzSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CAB11B24F3EE4700654260 /* SSLCommerzSDK.framework */; };
 		4284EB3E24F3E0CB00F6E399 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4284EB3D24F3E0CB00F6E399 /* AppDelegate.swift */; };
 		4284EB4024F3E0CB00F6E399 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4284EB3F24F3E0CB00F6E399 /* SceneDelegate.swift */; };
 		4284EB4224F3E0CB00F6E399 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4284EB4124F3E0CB00F6E399 /* ViewController.swift */; };
@@ -15,6 +16,9 @@
 		4284EB4A24F3E0CD00F6E399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4284EB4824F3E0CD00F6E399 /* LaunchScreen.storyboard */; };
 		4284EB5524F3E0CD00F6E399 /* SSLDemoProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4284EB5424F3E0CD00F6E399 /* SSLDemoProjectTests.swift */; };
 		4284EB6024F3E0CD00F6E399 /* SSLDemoProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4284EB5F24F3E0CD00F6E399 /* SSLDemoProjectUITests.swift */; };
+		8925F16D43D06AFDF105B368 /* Pods_SSLDemoProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9764E69066EE8CDC2A1094D /* Pods_SSLDemoProjectTests.framework */; };
+		937CAA6C565A91AB16EFA25F /* Pods_SSLDemoProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9B700C5D2A13CE3D8E4B7A /* Pods_SSLDemoProject.framework */; };
+		DCC271FD363C1B89914FDAAD /* Pods_SSLDemoProject_SSLDemoProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B42D497FF482BEA689A42A /* Pods_SSLDemoProject_SSLDemoProjectUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21030D3C4EFE9B21C700867A /* Pods-SSLDemoProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLDemoProject.debug.xcconfig"; path = "Target Support Files/Pods-SSLDemoProject/Pods-SSLDemoProject.debug.xcconfig"; sourceTree = "<group>"; };
 		4284EB3A24F3E0CB00F6E399 /* SSLDemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSLDemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4284EB3D24F3E0CB00F6E399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4284EB3F24F3E0CB00F6E399 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,15 @@
 		4284EB5B24F3E0CD00F6E399 /* SSLDemoProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLDemoProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4284EB5F24F3E0CD00F6E399 /* SSLDemoProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLDemoProjectUITests.swift; sourceTree = "<group>"; };
 		4284EB6124F3E0CD00F6E399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42CAB11B24F3EE4700654260 /* SSLCommerzSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SSLCommerzSDK.framework; sourceTree = "<group>"; };
+		5916DC642DCE7E92D94E143A /* Pods-SSLDemoProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLDemoProject.release.xcconfig"; path = "Target Support Files/Pods-SSLDemoProject/Pods-SSLDemoProject.release.xcconfig"; sourceTree = "<group>"; };
+		9712D0472AA21E86CA269692 /* Pods-SSLDemoProject-SSLDemoProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLDemoProject-SSLDemoProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-SSLDemoProject-SSLDemoProjectUITests/Pods-SSLDemoProject-SSLDemoProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B343593D8DB06A09FE5DEA3B /* Pods-SSLDemoProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLDemoProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-SSLDemoProjectTests/Pods-SSLDemoProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9764E69066EE8CDC2A1094D /* Pods_SSLDemoProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSLDemoProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97EC6B462010780F0A5F001 /* Pods-SSLDemoProject-SSLDemoProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLDemoProject-SSLDemoProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-SSLDemoProject-SSLDemoProjectUITests/Pods-SSLDemoProject-SSLDemoProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E9B42D497FF482BEA689A42A /* Pods_SSLDemoProject_SSLDemoProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSLDemoProject_SSLDemoProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F488116B883DF7AE57284505 /* Pods-SSLDemoProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLDemoProjectTests.release.xcconfig"; path = "Target Support Files/Pods-SSLDemoProjectTests/Pods-SSLDemoProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		FC9B700C5D2A13CE3D8E4B7A /* Pods_SSLDemoProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSLDemoProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42164A1C24F3F6630033CC9E /* SSLCommerzSDK.framework in Frameworks */,
+				937CAA6C565A91AB16EFA25F /* Pods_SSLDemoProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8925F16D43D06AFDF105B368 /* Pods_SSLDemoProjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCC271FD363C1B89914FDAAD /* Pods_SSLDemoProject_SSLDemoProjectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +101,8 @@
 				4284EB5324F3E0CD00F6E399 /* SSLDemoProjectTests */,
 				4284EB5E24F3E0CD00F6E399 /* SSLDemoProjectUITests */,
 				4284EB3B24F3E0CB00F6E399 /* Products */,
+				A4DC2E722BD8FB2CC803F0F2 /* Pods */,
+				9E01883F276D88B4DBC8007E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +148,30 @@
 			path = SSLDemoProjectUITests;
 			sourceTree = "<group>";
 		};
+		9E01883F276D88B4DBC8007E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42CAB11B24F3EE4700654260 /* SSLCommerzSDK.framework */,
+				FC9B700C5D2A13CE3D8E4B7A /* Pods_SSLDemoProject.framework */,
+				E9B42D497FF482BEA689A42A /* Pods_SSLDemoProject_SSLDemoProjectUITests.framework */,
+				B9764E69066EE8CDC2A1094D /* Pods_SSLDemoProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4DC2E722BD8FB2CC803F0F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21030D3C4EFE9B21C700867A /* Pods-SSLDemoProject.debug.xcconfig */,
+				5916DC642DCE7E92D94E143A /* Pods-SSLDemoProject.release.xcconfig */,
+				9712D0472AA21E86CA269692 /* Pods-SSLDemoProject-SSLDemoProjectUITests.debug.xcconfig */,
+				D97EC6B462010780F0A5F001 /* Pods-SSLDemoProject-SSLDemoProjectUITests.release.xcconfig */,
+				B343593D8DB06A09FE5DEA3B /* Pods-SSLDemoProjectTests.debug.xcconfig */,
+				F488116B883DF7AE57284505 /* Pods-SSLDemoProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +179,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4284EB6424F3E0CD00F6E399 /* Build configuration list for PBXNativeTarget "SSLDemoProject" */;
 			buildPhases = (
+				0EAA37F08592BFE920595C53 /* [CP] Check Pods Manifest.lock */,
 				4284EB3624F3E0CB00F6E399 /* Sources */,
 				4284EB3724F3E0CB00F6E399 /* Frameworks */,
 				4284EB3824F3E0CB00F6E399 /* Resources */,
@@ -152,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4284EB6724F3E0CD00F6E399 /* Build configuration list for PBXNativeTarget "SSLDemoProjectTests" */;
 			buildPhases = (
+				5854286FDBB7A7DFF97F9B2A /* [CP] Check Pods Manifest.lock */,
 				4284EB4C24F3E0CD00F6E399 /* Sources */,
 				4284EB4D24F3E0CD00F6E399 /* Frameworks */,
 				4284EB4E24F3E0CD00F6E399 /* Resources */,
@@ -170,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4284EB6A24F3E0CD00F6E399 /* Build configuration list for PBXNativeTarget "SSLDemoProjectUITests" */;
 			buildPhases = (
+				5DCF877DAA5E497FFCADD3F0 /* [CP] Check Pods Manifest.lock */,
 				4284EB5724F3E0CD00F6E399 /* Sources */,
 				4284EB5824F3E0CD00F6E399 /* Frameworks */,
 				4284EB5924F3E0CD00F6E399 /* Resources */,
@@ -253,6 +300,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EAA37F08592BFE920595C53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSLDemoProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5854286FDBB7A7DFF97F9B2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSLDemoProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DCF877DAA5E497FFCADD3F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSLDemoProject-SSLDemoProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4284EB3624F3E0CB00F6E399 /* Sources */ = {
@@ -432,10 +548,16 @@
 		};
 		4284EB6524F3E0CD00F6E399 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21030D3C4EFE9B21C700867A /* Pods-SSLDemoProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SSLDemoProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,10 +571,16 @@
 		};
 		4284EB6624F3E0CD00F6E399 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5916DC642DCE7E92D94E143A /* Pods-SSLDemoProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SSLDemoProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +594,7 @@
 		};
 		4284EB6824F3E0CD00F6E399 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B343593D8DB06A09FE5DEA3B /* Pods-SSLDemoProjectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +616,7 @@
 		};
 		4284EB6924F3E0CD00F6E399 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F488116B883DF7AE57284505 /* Pods-SSLDemoProjectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +638,7 @@
 		};
 		4284EB6B24F3E0CD00F6E399 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9712D0472AA21E86CA269692 /* Pods-SSLDemoProject-SSLDemoProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +658,7 @@
 		};
 		4284EB6C24F3E0CD00F6E399 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D97EC6B462010780F0A5F001 /* Pods-SSLDemoProject-SSLDemoProjectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

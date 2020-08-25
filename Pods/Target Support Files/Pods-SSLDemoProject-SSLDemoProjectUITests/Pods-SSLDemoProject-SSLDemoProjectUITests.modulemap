@@ -1,0 +1,6 @@
+framework module Pods_SSLDemoProject_SSLDemoProjectUITests {
+  umbrella header "Pods-SSLDemoProject-SSLDemoProjectUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
